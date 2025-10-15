@@ -27,3 +27,7 @@ keymap.set("i", "jk", "<Esc>", opts)
 
 --IncRename
 keymap.set("n", "<Leader>rn", ":IncRename ")
+
+--CommentSegment
+keymap.set("n", "<Leader>c/", "gcc", { remap = true, desc = "Toggle comment line" })
+keymap.set("v", "<Leader>c/", "gc", { remap = true, desc = "Toggle comment selection" })
