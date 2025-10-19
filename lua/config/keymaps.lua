@@ -31,3 +31,11 @@ keymap.set("n", "<Leader>rn", ":IncRename ")
 --CommentSegment
 keymap.set("n", "<Leader>c/", "gcc", { remap = true, desc = "Toggle comment line" })
 keymap.set("v", "<Leader>c/", "gc", { remap = true, desc = "Toggle comment selection" })
+
+--Move down and Up cneter page
+keymap.set("n", "<C-d>", "<C-d>zz", opts)
+keymap.set("n", "<C-u>", "<C-u>zz", opts)
+keymap.set("n", "n", "nzzzv", opts)
+keymap.set("n", "N", "Nzzzv", opts)
+
+keymap.set("n", "q:", "<Nop>", opts)
