@@ -39,3 +39,5 @@ keymap.set("n", "n", "nzzzv", opts)
 keymap.set("n", "N", "Nzzzv", opts)
 
 keymap.set("n", "q:", "<Nop>", opts)
+
+keymap.set("n", "<C-z>", "<Nop>", opts)
