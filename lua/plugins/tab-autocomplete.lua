@@ -6,6 +6,9 @@ return {
       "rafamadriz/friendly-snippets",
     },
     opts = function(_, opts)
+      opts.completion = {
+        ghost_text = false,
+      }
       opts.snippets = {
         preset = "luasnip",
       }
