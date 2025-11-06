@@ -5,7 +5,7 @@
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 -- Select All
-keymap.set("n", "<C-a>", "gg<S-v>G")
+keymap.set("n", "<Leader>a", "gg<S-v>G", { noremap = true, silent = true, desc = "Select All" })
 
 -- Move between tabs
 keymap.set("n", "<tab>", ":bnext<Return>", opts)

@@ -6,7 +6,7 @@ return {
     opts = {
 
       functionStyle = { bold = true },
-      transparent = false,
+      transparent = true,
     },
   },
   {
